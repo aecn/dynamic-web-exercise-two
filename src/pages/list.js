@@ -1,9 +1,12 @@
 import React from "react";
+import ArticleCard from "../components/articleCard";
 
 function List() {
     return (
-        <div>
+        <div class="pageWrapper">
             <h1>Articles</h1>
+            <ArticleCard
+             />
         </div>
     );
 }

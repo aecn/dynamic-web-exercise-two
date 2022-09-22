@@ -1,0 +1,77 @@
+.pageWrapper {
+    padding: 30px 100px;
+}
+
+.pageWrapper h1 {
+    font-size: 70px;
+    font-weight: normal;
+}
+
+.articleCard {
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+.articleCard-image {
+    background: grey;
+    height: 200px;
+    margin: 30px;
+    width: 250px;
+}
+
+.articleCard-content {
+}
+
+.articleCard-title {
+    font-size: 35px;
+    margin: 0px;
+}
+
+.articleCard-date {
+
+}
+
+.articleCard-text {
+
+}
+
+.articleCard-link {
+
+}
+
+.article-header {
+
+}
+
+.article-title {
+
+}
+
+.article-date{
+
+}
+
+.article-blurb{
+
+}
+
+.article-section{
+
+}
+
+.article-h2{
+
+}
+
+.article-h3{
+
+}
+
+.article-text{
+
+}
+
+
