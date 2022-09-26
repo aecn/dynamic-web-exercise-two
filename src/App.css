@@ -3,8 +3,9 @@
 }
 
 .pageWrapper h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: normal;
+    margin-left: 60px;
 }
 
 .articleCard {
@@ -12,14 +13,14 @@
     border: 1px solid black;
     display: flex;
     padding: 10px;
-    margin-left: 60px;
+    margin: 60px;
 }
 
 .articleCard-image {
-    background: grey;
+    background: #C4C4C4;
     height: 200px;
     margin: 30px;
-    width: 250px;
+    width: 100%;
 }
 
 .articleCard-content {
@@ -31,46 +32,63 @@
 }
 
 .articleCard-date {
+    margin-left: 10px;
 
 }
 
 .articleCard-text {
-
 }
 
 .articleCard-link {
-
+    font-weight: bold;
 }
 
 .article-header {
+    background-color: #C4C4C4;
+    text-align: center;
+}
 
+.article-header-text {
+    display: inline-block;
+    margin: 20px 300px;
+    text-align: left;
 }
 
 .article-title {
+    font-weight: 500;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.article-date {
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.article-blurb {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.article-section {
+    text-align: center;
+    margin: 50px 300px;
+}
+
+.article-section-text {
+    display: inline-block;
+    text-align: left;
+}
+
+.article-h2 {
 
 }
 
-.article-date{
+.article-h3 {
 
 }
 
-.article-blurb{
-
-}
-
-.article-section{
-
-}
-
-.article-h2{
-
-}
-
-.article-h3{
-
-}
-
-.article-text{
+.article-text {
 
 }
 
