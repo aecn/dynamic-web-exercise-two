@@ -17,9 +17,13 @@
 }
 
 .articleCard-image {
-    background: #C4C4C4;
+    margin: 10px 30px 10px 10px; 
     height: 200px;
-    margin: 30px;
+    width: 400px;
+}
+
+.articleCard-image img {
+    height: 100%;
     width: 100%;
 }
 
@@ -33,7 +37,6 @@
 
 .articleCard-date {
     margin-left: 10px;
-
 }
 
 .articleCard-text {

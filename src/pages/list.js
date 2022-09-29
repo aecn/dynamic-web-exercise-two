@@ -6,14 +6,14 @@ function List() {
     return (
         <div class="pageWrapper">
             <h1>Articles</h1>
-            {Data.map((article, ) => (
+            {Data.map((article, i) => (
                 <ArticleCard
-                //key={i}
-                imgSrc={article.image.alt}
-                imgAlt={article.image.src}
-                date={article.publishedDate}
-                title={article.title}
+                key={i}
                 text={article.blurb}
+                date={article.publishedDate}
+                imageSrc={article.image.url}
+                imageAlt={article.image.alt}
+                title={article.title}
                 //link="Read More"
                 />
             ))}

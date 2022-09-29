@@ -1,16 +1,19 @@
 import React from "react";
+import { useParams } from "react-router";
+import Data from '../components/data';
 
 function Article() {
-    const backgroundImageUrl =
-    "url(https://www.pexels.com/photo/a-gradient-wallpaper-7134986/)";
+    const { id } = useParams();
+    const articleData = Data.find((article) => (
+        article.id === id
+    ))
+
+    console.log(articleData)
+
+    console.log(id)
     return (
         <main>
-            <header className="article-header"
-            style={{
-                backgroundImage: backgroundImageUrl,
-            }}
-            >
-
+            <header className="article-header">
                 <div className="article-header-text">
                     <h1 className="article-title">Article Title</h1>
                     <p className="article-date">Wednesday, August 22, 2019</p>
