@@ -4,18 +4,13 @@ import Data from '../components/data';
 
 function Article() {
     const { id } = useParams();
-    const articleData = Data.find((article) => (
-        article.id === id
-    ))
+    const articleData = Data.find((article) => article.id === id);
 
-    console.log(articleData)
-
-    console.log(id)
     return (
         <main>
             <header className="article-header">
                 <div className="article-header-text">
-                    <h1 className="article-title">Article Title</h1>
+                    <h1 className="article-title">{articleData.title}</h1>
                     <p className="article-date">Wednesday, August 22, 2019</p>
                     <h4 className="article-blurb">Note that this is the article blurb. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.</h4>
                 </div>
