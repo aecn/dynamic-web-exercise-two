@@ -1,7 +1,6 @@
 import React from "react";
 
-function ArticleCard({ date, imageAlt, imageSrc, text, title }) {
-    console.log(imageSrc);
+function ArticleCard({ blurb, date, id, imageAlt, imageSrc, title }) {
     return (
         <div className="articleCard">
             <div className="articleCard-image"> 
@@ -9,8 +8,10 @@ function ArticleCard({ date, imageAlt, imageSrc, text, title }) {
             <div className="articleCard-content">
                     <h2 className="articleCard-title">{title}</h2>
                     <p className="articleCard-date">{date}</p>
-                    <p className="articleCard-text">{text}</p>
-                <a className="articleCard-link" href="#">Read More</a>
+                    <p className="articleCard-blurb">{blurb}</p>
+                <p className="articleCard-link">
+                    <a href={`/article/${id}`}>Read More</a>
+                </p>
             </div>
         </div>
     )
