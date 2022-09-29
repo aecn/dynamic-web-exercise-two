@@ -5,21 +5,22 @@
 .pageWrapper h1 {
     font-size: 60px;
     font-weight: normal;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .articleCard {
     align-items: center;
     border: 1px solid black;
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-    margin: 60px;
+    margin: 40px;
 }
 
 .articleCard-image {
     margin: 10px 30px 10px 10px; 
-    height: 200px;
-    width: 400px;
+    height: 180px;
+    width: 300px;
 }
 
 .articleCard-image img {
@@ -31,7 +32,7 @@
 }
 
 .articleCard-title {
-    font-size: 35px;
+    font-size: 30px;
     margin: 0px;
 }
 
