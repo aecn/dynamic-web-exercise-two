@@ -25,7 +25,7 @@ function Article() {
                 >
                 <div className="article-header-text">
                     <h1 className="article-title">{articleData.title}</h1>
-                    <p className="article-date">{articleData.publishedDate}</p>
+                    <p className="article-date">{date}</p>
                     <h4 className="article-blurb">{articleData.blurb}</h4>
                 </div>
             </header>
@@ -45,10 +45,9 @@ function Article() {
                         case "h4":
                             return <h4 key={i}>{text.data}</h4>;
                         default:
-                            return<p key={i}>{text.data}</p>;
+                            return <p key={i}>{text.data}</p>;
                         }
                     })}
-
                 </div>
             </section>
         </main>

@@ -1,7 +1,6 @@
 import React, { useMemo } from "react";
 
 function ArticleCard({ blurb, date, id, imageAlt, imageSrc, title }) {
-
     const articleDate = useMemo(() => {
         if (!date) return '';
         const parsedDate = new Date(date);
